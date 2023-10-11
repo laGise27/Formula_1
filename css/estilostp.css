@@ -2,27 +2,24 @@
     color: rgb(177, 177, 177);
     background-color: rgb(240, 240, 240);
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr 4fr;
-    
-
+    grid-template-columns: 1fr 2fr 3fr;
     /*px, auto, %, Fr, rem*/
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(11);
     gap: 10px;
+    margin:30px
 }
  
-
-
 .item {
     background-color: white;
     font-size: 24px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 
 }
 
 .encabezado {
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -30,51 +27,65 @@
 
 }
 
-
-
+/*
+Esta es de ChatGPT
+*/
+.encabezado img {
+    max-width: 100%;
+    height: auto;
+}
 .encabezado2 {
     background-color: rgb(240, 240, 240);
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 30px;
     padding-right: 30px;
     color: #ee0000;
     font-size: 1.4rem;
     font-weight: 400;
+    
 }
 
-.imagencard {
+/*.imagencard {
     width: auto;
     height: auto;
-    object-fit: cover;
+    display:flex;
+    flex-wrap: wrap;   
+}*/
 
+.imagencard {
+    max-width: 100%;
+    height: auto;
 }
-
-.f2 {
+.categorias {
     /*categorias f2 f3*/
     grid-row-start: 4;
     grid-row-end: 6;
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
     background-color: rgb(240, 240, 240);
+    font-family:"Roboto", sans-serif; 
+    height: 300px;
+    color: black;
+    min-height: 300px;
+    object-fit: cover;
 }
 
-    
 
 .escuderias {
     grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-end: 5;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     background-color: rgb(240, 240, 240);
+    min-height: 150px;
 }
 
-.escuderias h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.escuderias.h3{
+    font-family: "Roboto", sans-serif;
     color: black;
 }
 .escuderias img {
@@ -121,7 +132,7 @@
         }
     }
 
-.pilotos {
+/*.pilotos {
     grid-row-start: 6;
     grid-row-end: 7;
     grid-column-start: 1;
@@ -160,29 +171,32 @@
     background-color: rgb(240, 240, 240);
 
 }
+*/
 
 .notiescuderias {
-    grid-row-start: 8;
+    grid-row-start: 6;
     grid-row-end: 9;
     grid-column-start: 1;
     grid-column-end: 4;
     background-color: rgb(240, 240, 240);
+    text-align: center;
 
 }
 
 .newsletter {
-    grid-row-start: 6;
-    grid-row-end: 8;
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-row-start:5 ;
+    grid-row-end:6 ;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
     background-color: rgb(240, 240, 240);
+    min-height: 50px;
 }
 
-.tempasadas {
-    grid-row-start: 9;
-    grid-row-end: 10;
-    grid-column-start: 1;
-    grid-column-end: 4;
+/*.tempasadas {
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
     background-color: rgb(240, 240, 240);
 
 }
@@ -195,7 +209,7 @@
     background-color: rgb(240, 240, 240);
 
 }
-
+*/
 p{
     font-size: 1rem;
     color:#333
@@ -222,6 +236,7 @@ p{
     grid-column-end: 5;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: left;
 }
 
 html {
@@ -231,6 +246,21 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+/*
+Esta es de chatGPT
+
+body {
+    font-size: 16px; /* Ajusta el tamaño de fuente base según tus preferencias 
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 1rem; /* Ajusta el espacio entre párrafos
+}
+
+*/
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -291,6 +321,8 @@ nav a:hover {
     text-align:right;
     margin:auto;
     margin-top : 20px;	
+    margin-right: 20px;
+    
 }
 #clock{
     background-color:#fff;
@@ -304,6 +336,7 @@ nav a:hover {
     font-size:10px;
     position:absolute;
     top: -27px;	
+    margin-right: 20px;
 }
 #date{	
     font-size:14px;
@@ -313,30 +346,26 @@ nav a:hover {
 .pie {
     grid-area: 10/ 1/ 11/ 5;
     /* 5/ 1/ span 1/ span3/*/
-    
-
-  
+    text-align: center;
+ 
 }
 .primerfooter{
-    text-align: left;
+    text-align: center;
     border: #6c757d;
-    height: 200px;
-    width: 370px;
-    
+    margin-left: 20px;  
 }
 
 .segundofooter{
-    background-color: rgb(240, 240, 240);
+    text-align: center;
 }
+
 /* estilos de la columna de footer que no pude ubicar
 .segundofooter{
     
     height: 200px;
     width: 370px;
     text-align: left;
-    text-decoration: none;
-    
-    
+    text-decoration: none;   
 }
 */
 .linksinteres{
@@ -354,79 +383,97 @@ h4{
     text-decoration: none;
     color:#ee0000;
     font-size: 1rem;
-    
+   
 }
-
 
 .contenedor1{
-    background-color:white ;
+    /*background-color:white ;*/
     display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 1fr);/* 1fr 1fr 1fr */  
-	grid-template-rows: repeat(6, auto); /* auto auto auto auto*/
-    margin-left: 30px;
-    margin-right: 30px;
-    display:grid;
-   
-    justify-content: space-evenly ;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr); 
+	grid-template-rows: repeat(6, 1fr); /* auto auto auto auto*/
+    margin:30px;
+    
+    /*display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly ;*/   
 }
+
+
 
 .card{
-    position:relative;
-    width: 300px;
-    height: 250px;
-    flex-basis: 100%;
-       
+    position: relative;
+    width: 250px;
+    height: 250px;  
+    padding: 20px;
+        
 }
 
-
 .card div{
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
     backface-visibility: hidden;
     transition: 1s;
+    text-align: center;
+    margin: 20px; 
+    padding: 5px;
 }
 
-.card .front{
+ .front{
     background-color: white;
     transform: perspective(500px) rotateY(0deg);
-
+    margin: 20px; 
+    padding: 10px;
+    
 }
-.card .back{
+.back{
     background-color:#333;
-    transform: perspective(500px) rotateY(180deg);
+    transform: perspective(400px) rotateY(180deg); 
+    color:antiquewhite ;
+     
         
 }
+.card p{
+    font-weight:bolder
+}
 .card:hover .front{
-    transform: perspective(500px) rotateY(180deg);
+    transform: perspective(400px) rotateY(180deg);
 
 }
 .card:hover .back{
-    transform: perspective(500px) rotateY(360deg);
+    transform: perspective(400px) rotateY(360deg);
     
 }
 .infopilotos{
-    color:whitesmoke
+    color:whitesmoke;
+    background-color:#333
 }
- .galeria{
-    padding: 50px;
-   display: grid;
-   place-items: center;
-   margin: auto;
- }
-
 .noticias{
     padding: 50px;
 }
+    
+    .noticias h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        font-size: 2.3rem;
+    }
     .noticias h3{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: black;
         font-size: 2rem;
     }
+
+    .noticias ul li{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        font-size: 1rem;
+        
+    }
+
 
     .noticias p{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -471,25 +518,18 @@ h4{
  /*inicio slider*/
  
  
- .post-link{
-    display:flex;
-    min-height: auto;
-    align-items: center;
-    justify-content: center;
-    padding-top: 0px;
-    font-size: 1rem;
- }
 
- .content{
+
+.content{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
-    max-width: auto;
-    margin: auto;
-    padding: 100px;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap:15px;
+    max-width: 5000px;
+    margin: 10px;
+    padding: 10px;
  }
 
- .post-img-1{
+.post-img-1{
     background: url(/img/noticia1.jpg);
     width: 100%; 
     height: 200px;
@@ -498,7 +538,7 @@ h4{
     transition: .2s;
  }
 
- .post-img-2{
+.post-img-2{
     background: url(/img/noticia2.jpg);
     width: 100%; 
     height: 200px;
@@ -507,7 +547,7 @@ h4{
     transition: .2s;
  }
 
- .post-img-3{
+.post-img-3{
     background: url(/img/noticia3.jpg);
     width: 100%; 
     height: 200px;
@@ -516,7 +556,7 @@ h4{
     transition: .2s;
  }
 
- .post-img-4{
+.post-img-4{
     background: url(/img/noticia4.jpg);
     width: 100%; 
     height: 200px;
@@ -525,7 +565,7 @@ h4{
     transition: .2s;
  }
 
- .post-img-5{
+.post-img-5{
     background: url(/img/noticia5.jpg);
     width: 100%; 
     height: 200px;
@@ -534,7 +574,7 @@ h4{
     transition: .2s;
  }
 
- .post-img-6{
+.post-img-6{
     background: url(/img/noticia6.jpg);
     width: 100%; 
     height: 200px;
@@ -543,87 +583,164 @@ h4{
     transition: .2s;
  }
 
- .post{
+.post{
     box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 1);
     /*overflow:hidden;*/
     transition: .2s;
  }
 
- .post:hover{
+.post:hover{
     transform: translateY(-4px);
     box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .15);
  }
 
- .post-header{
-    width: 100%;
-    height: 200px;
+.post-header{
+    width: auto;
+    height: auto;
     /*overflow:hidden;*/
     cursor: pointer;
  }
 
- .post:hover .post-img-1,
- .post:hover .post-img-2,
- .post:hover .post-img-3,
- .post:hover .post-img-4,
- .post:hover .post-img-5,
- .post:hover .post-img-6{
+.post:hover .post-img-1,
+.post:hover .post-img-2,
+.post:hover .post-img-3,
+.post:hover .post-img-4,
+.post:hover .post-img-5,
+.post:hover .post-img-6{
     transform: scale(1,1);
  }
 
- .post-body{
+.post-body{
     padding: 15px;
-    text-align: center;
+    text-align:inherit;
  }
 
- .post-body span{
+.post-body span{
     display: inline-block;
     color: #999;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 0.8rem;
  }
 
- .post-body h2{
-    margin-bottom: 15px;
-    font-size: 1.5rem;
+.post-body h2{
+    margin-bottom:5px;
+    font-size: 1.2rem;
+    line-height: 1,2;
  }
 
- .post-body p{
-    line-height: 1,5;
+.post-body p{
+    line-height: 1,2;
     margin-bottom: 20px;
     font-size: 1rem;
 
  }
 
- .post-body .post-link{
+.post-body .post-link{
     display: block;
     text-decoration: none;
     padding: 10px;
     background:red;
     color: #fff;
-    width: 50%;
+    width: auto;
     margin: auto;
     border-radius: 20px;
     box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .1);
  }
 
- .post-body .post-link:hover{
+.post-body .post-link:hover{
     background: red;
     box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
     transform: translate(-2px);
  }
 
+
+ @media (max-width: 1300px){
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .contenedor1{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+ 
+ 
+ @media (max-width: 1000px){
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .contenedor1{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
  @media (max-width: 840px){
-    .content{
+    .content {
         grid-template-columns: repeat(2, 1fr);
     }
+    .contenedor1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
 @media (max-width: 600px){
-    .content{
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contenedor1{
         grid-template-columns: repeat(1, 1fr);
     }
 
 }
 
+
+
+
+@media  (max-width: 1000px) {
+    
+    
+    .contenedor1 {
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+    .card {
+      height: 285px;
+    }
+    .contenedor1:last-child {
+      margin-bottom: 3%;
+    }
+  }
+
+@media  (max-width: 840px) {
+    
+    .contenedor1 {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 2.8%;
+      margin-top: 3%;
+      width: 30%;
+    }
+    .card {
+      height: 285px;
+    }
+    .contenedor1:last-child {
+      margin-bottom: 3%;
+    }
+  }
+  
+  @media  (max-width: 600px) {
+    
+    
+    .contenedor1 {
+      width: 94.5%;
+      grid-template-columns: repeat(1, 2fr);
+    }
+    .card {
+      height: 250px;
+    }
+  }
 
 /*
 Aca probando el Newsletter
@@ -666,14 +783,49 @@ Aca probando el Newsletter
 
 
     /* Estilos para pantallas más pequeñas (móviles) */
-@media screen and (max-width: 600px) {
-    .contenedor {
-        grid-template-columns: 1fr;
+/*@media screen and (max-width: 600px) {
+    .contenedor.encabezado{
+        grid-column: 1 / -1;
     }
-
+    .contenedor.encabezado2{
+        grid-column: 1 / -1;
+    }
+    .contenedor.navegacion{
+        grid-column:1/-1;
+    }
+    .escuderias{
+        grid-column:1/-1;
+    }
+    .categorias{
+        grid-column:1/-1;
+        grid-row: 5;
+       
+    }
+    .newsletter{
+        grid-column: 1 / -1;
+        grid-row: 6
+        
+    }
     .item.encabezado2 {
         font-size: 1.2rem;
     }
 
-    /* ... Agrega otras reglas de estilo específicas para pantallas pequeñas aquí ... */
-}
+}*/
+
+
+.post-link1{
+    display:flex;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: white;
+ }
+
+ .post-link1:hover{
+    background: red;
+    
+ }
+    

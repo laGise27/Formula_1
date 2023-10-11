@@ -8,46 +8,49 @@
     <link rel="stylesheet" href="css/estilostp.css">
     <link href="img/logo formula 1.png" rel="icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <Link rel="stylesheet" href="https://use.fontawsome.com/releases/v5.5.0/css/all/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
     <script src="./js/reloj.js"></script>
 </head>
 
 <body onload="startTime()">
+    <header>
+        <div class="contenedor">
+            <!-- Topbar comienzo -->
+            <div class="item encabezado">
+                <img src="img/logo formula 1.png" alt="">
 
-    <div class="contenedor">
-        <!-- Topbar comienzo -->
-        <div class="item encabezado">
-            <img src="img/logo formula 1.png" alt="">
-
-            <div class="clockdate-wrapper ">
-                <div id="clock"></div>
-                <div id="date"></div>
-            </div>
-        </div>
-
-        <div class="item encabezado2">
-            <a href="index.html" class="linkform">
-                <h1>FORMULA 1</h1>
-            </a>
-            <div class="col-lg-8 text-center text-lg-right">
-                <img class="imagencard" src="img/pilotos-banner.jpg" alt="">
+                <div class="clockdate-wrapper ">
+                    <div id="clock"></div>
+                    <div id="date"></div>
+                </div>
             </div>
 
-        </div>
+            <div class="item encabezado2">
+                <a href="index.html" class="linkform">
+                    <h1>FORMULA 1</h1>
+                </a>
+                <div class="col-lg-8 text-center text-lg-right">
+                    <img class="imagencard" src="img/pilotos-banner.jpg" alt="">
+                </div>
 
-        <div class="item navegacion">
-            <nav align="left">
-                <a href="index.html" class="home">Home</a>
-                <a href="calendario.html" class="navlink">Calendario F1</a>
-                <a href="pilotos.html" class="navlink">Pilotos</a>
-                <a href="escuderias.html" class="navlink">Escuderias</a>
-                <a href="historia.html" class="navlink">Historia</a>
-                <a href="contact.html" class="navlink">Contacto</a>
-            </nav>
-        </div>
+            </div>
 
-        <section class="galeria">
+            <div class="item navegacion">
+                <nav>
+                    <a href="index.html" class="home">Home</a>
+                    <a href="calendario.html" class="navlink">Calendario F1</a>
+                    <a href="pilotos.html" class="navlink">Pilotos</a>
+                    <a href="/escuderias/historiaEscuderias.html" class="navlink">Escuderias</a>
+                    <a href="historia.html" class="navlink">Historia</a>
+                    <a href="contact.html" class="navlink">Contacto</a>
+                    </nav>
+            </div>
+    </header>
+
+    
+        <div class="galeriaPilotos">
             <div class="contenedor1">
                 <div class="card">
                     <div class="front">
@@ -56,6 +59,11 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Red Bull</p>
+                        <p class="infopilotos">Edad: 26</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1997-09-30</p>
+                        <p class="infopilotos">Nacionalidad: Netherlands</p>
+                        <a href="pilotos/maxVerstappen.html" class="post-link1">Leer Más...</a>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -65,6 +73,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Ferrari</p>
+                        <p class="infopilotos">Edad: 29</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1994-09-01</p>
+                        <p class="infopilotos">Nacionalidad: España</p>
+                        <a href="pilotos/carlosSainz.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -74,6 +86,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Williams</p>
+                        <p class="infopilotos">Edad: 27</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1996-03-23</p>
+                        <p class="infopilotos">Nacionalidad: Thailand</p>
+                        <a href="pilotos/alexAlbon.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -83,6 +99,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Ferrari</p>
+                        <p class="infopilotos">Edad: 25</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1997-10-16</p>
+                        <p class="infopilotos">Nacionalidad: Monaco</p>
+                        <a href="pilotos/charlesLeclerc.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -92,6 +112,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Alpine</p>
+                        <p class="infopilotos">Edad: 27</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1996-09-17</p>
+                        <p class="infopilotos">Nacionalidad: France</p>
+                        <a href="pilotos/estebanOcon.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -101,6 +125,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Aston Martin</p>
+                        <p class="infopilotos">Edad: 42</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1981-07-29</p>
+                        <p class="infopilotos">Nacionalidad: Spain</p>
+                        <a href="pilotos/fernandoAlonso.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -110,6 +138,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Mercedes</p>
+                        <p class="infopilotos">Edad: 25</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1998-02-15</p>
+                        <p class="infopilotos">Nacionalidad: United Kingdom</p>
+                        <a href="pilotos/georgeRussell.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -119,6 +151,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Haas</p>
+                        <p class="infopilotos">Edad: 31</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1992-10-05</p>
+                        <p class="infopilotos">Nacionalidad: Denmark</p>
+                        <a href="pilotos/kevinMagnussen.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -128,6 +164,11 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Aston Martin</p>
+                        
+                        <p class="infopilotos">Edad: 24</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1998-10-29</p>
+                        <p class="infopilotos">Nacionalidad: Canada</p>
+                        <a href="pilotos/lanceStroll.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -137,15 +178,26 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: McLaren</p>
+                        
+                        <p class="infopilotos">Edad: 23</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1999-11-13</p>
+                        <p class="infopilotos">Nacionalidad: United Kingdom</p>
+                        <a href="pilotos/landoNoris.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="front">
+                        
                         <img src="./img/pilotos/lewis-hamilton-mercedes-1.webp" alt="">
                         <p>Lewis Hamilton</p>
+                        
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Mercedes</p>
+                        <p class="infopilotos">Edad: 38</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1985-01-07</p>
+                        <p class="infopilotos">Nacionalidad: United Kingdom</p>
+                        <a href="pilotos/lewisHamilton.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -155,6 +207,11 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: williams</p>
+                        
+                        <p class="infopilotos">Edad: 22</p>
+                        <p class="infopilotos">Fecha Nacimiento: 2000-12-31</p>
+                        <p class="infopilotos">Nacionalidad: United State</p>
+                        <a href="pilotos/loganSargeant.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -164,6 +221,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Haas</p>
+                        <p class="infopilotos">Edad: 36</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1987-08-19</p>
+                        <p class="infopilotos">Nacionalidad: Germany</p>
+                        <a href="pilotos/nicoHulkenberg.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -173,6 +234,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Alpha Tauri</p>
+                        <p class="infopilotos">Edad: 28</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1995-02-06</p>
+                        <p class="infopilotos">Nacionalidad: Netherlands</p>
+                        <a href="pilotos/nickdeVries.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -182,6 +247,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: McLaren</p>
+                        <p class="infopilotos">Edad: 22</p>
+                        <p class="infopilotos">Fecha Nacimiento: 2001-04-06</p>
+                        <p class="infopilotos">Nacionalidad: Autralia</p>
+                        <a href="pilotos/oscarPiastri.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -191,6 +260,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Alpine</p>
+                        <p class="infopilotos">Edad: 27</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1996-02-07</p>
+                        <p class="infopilotos">Nacionalidad: France</p>
+                        <a href="pilotos/pierreGasly.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -200,6 +273,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Red Bull</p>
+                        <p class="infopilotos">Edad: 33</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1990-01-26</p>
+                        <p class="infopilotos">Nacionalidad: Mexico</p>
+                        <a href="pilotos/sergioPerez.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -209,6 +286,10 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Alpa Tauri</p>
+                        <p class="infopilotos">Edad: 23</p>
+                        <p class="infopilotos">Fecha Nacimiento: 2000-05-11</p>
+                        <p class="infopilotos">Nacionalidad: Japan</p>
+                        <a href="pilotos/yukiTsunoda.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
                 <div class="card">
@@ -218,26 +299,14 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Alfa Romeo</p>
+                        <p class="infopilotos">Edad: 24</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1999-05-30</p>
+                        <p class="infopilotos">Nacionalidad: China</p>
+                        <a href="pilotos/guanzyZhou.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="front">
-                        <img src="./img/pilotos/daniel-ricciardo-alphatauri-1.webp" alt="">
-                        <p>Daniel Ricciardo</p>
-                    </div>
-                    <div class="back">
-                        <p class="infopilotos">Escuderia: Alpha Tauri</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="front">
-                        <img src="./img/pilotos/liam-lawson-alpha-tauri-1 (1).webp" alt="">
-                        <p>Liam Lawson</p>
-                    </div>
-                    <div class="back">
-                        <p class="infopilotos">Escuderia: Alpha Tauri</p>
-                    </div>
-                </div>
+                
+                
                 <div class="card">
                     <div class="front">
                         <img src="./img/pilotos/valtteri-bottas-alfa-romeo-1.webp" alt="">
@@ -245,43 +314,51 @@
                     </div>
                     <div class="back">
                         <p class="infopilotos">Escuderia: Alfa Romeo</p>
+                        <p class="infopilotos">Edad: 34</p>
+                        <p class="infopilotos">Fecha Nacimiento: 1989-08-28</p>
+                        <p class="infopilotos">Nacionalidad: FindLand</p>
+                        <a href="pilotos/valtteriBotas.html" class="post-link1">Leer Más...</a>
                     </div>
                 </div>
-        </section>
-
-
-        <div class="item pie">
-            <div class="primerfooter">
-                <a href="intento.html" class="linkform">
-                    <h2>FORMULA 1</h2>
-                </a>
-                <p>Todo lo que tenes que saber de la Formula 1</p>
-                <div class=iconos>
-                    <a class="iconosredes" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="iconosredes" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="iconosredes" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="iconosredes" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="iconosredes" href="#"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-            <!-- segunda columna de footer con los links que no pude ubicar en el pie 
-    <div class="segundofooter">
-
-        <h4>Links</h4>
-            <div class=>
-                <a class="linksinteres" href="#">Sobre Nosotros</a> <br>
-                <a class="linksinteres" href="#">Privacidad y politica</a> <br>
-                <a class="linksinteres" href="#">Terminos y Condiciones</a> <br>
-                <a class="linksinteres" href="#">Contacto</a> <br>
-
-            </div>
-
-    </div>-->
-
-            <p class="gruponumber">© Grupo Number One</p>
-            <p>.All Rights Reserved.</p>
-
         </div>
+
+    
+
+
+    <div class="item pie">
+        <div class="primerfooter">
+            <a href="index.html" class="linkform">
+                <h2>FORMULA 1</h2>
+            </a>
+            <p>Todo lo que tenes que saber de la Formula 1</p>
+            <div class=iconos>
+                <a class="iconosredes" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="iconosredes" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="iconosredes" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="iconosredes" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="iconosredes" href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <!-- segunda columna de footer con los links que no pude ubicar en el pie 
+            <div class="segundofooter">
+        
+                <h4>Links</h4>
+                    <div class=>
+                        <a class="linksinteres" href="#">Sobre Nosotros</a> <br>
+                        <a class="linksinteres" href="#">Privacidad y politica</a> <br>
+                        <a class="linksinteres" href="#">Terminos y Condiciones</a> <br>
+                        <a class="linksinteres" href="#">Contacto</a> <br>
+        
+                    </div>
+        
+            </div>-->
+
+        <p class="gruponumber">© Grupo Number One</p>
+        <p>.All Rights Reserved.</p>
+
+    </div>
+    </div>
+
 </body>
 
 </html>
