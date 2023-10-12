@@ -27,9 +27,7 @@
 
 }
 
-/*
-Esta es de ChatGPT
-*/
+
 .encabezado img {
     max-width: 100%;
     height: auto;
@@ -90,8 +88,7 @@ Esta es de ChatGPT
 }
 .escuderias img {
     width: 100px;
-    height: 150px;
-    
+    height: 150px;   
 }
 
     .slider {
@@ -423,7 +420,7 @@ h4{
     padding: 5px;
 }
 
- .front{
+.front{
     background-color: white;
     transform: perspective(500px) rotateY(0deg);
     margin: 20px; 
@@ -454,6 +451,7 @@ h4{
 }
 .noticias{
     padding: 50px;
+    font-family: "Roboto", sans-serif;
 }
     
     .noticias h2{
@@ -470,8 +468,7 @@ h4{
     .noticias ul li{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: black;
-        font-size: 1rem;
-        
+        font-size: 1rem;  
     }
 
 
@@ -486,6 +483,7 @@ h4{
         color: black;
         font-size: 1.2rem;
     }
+    
 .historias {
     padding: 50px;
 }
@@ -701,8 +699,8 @@ h4{
     
     
     .contenedor1 {
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: 2.8%;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 2.8%;
       margin-top: 3%;
       width: 46%;
     }
@@ -717,8 +715,8 @@ h4{
 @media  (max-width: 840px) {
     
     .contenedor1 {
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 2.8%;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 2.8%;
       margin-top: 3%;
       width: 30%;
     }
