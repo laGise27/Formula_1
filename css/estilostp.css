@@ -780,6 +780,14 @@ Aca probando el Newsletter
         cursor: pointer;
     }
 
+    /*DFlores Agrego el dia 12 de Octubre, 2023*/
+    #email-error {
+        position: absolute;
+        bottom: -20px; /* Añadido */
+        left: 0; /* Añadido */
+        width: 100%; /* Añadido */
+        text-align: center; /* Añadido */
+    }
 
 
     /* Estilos para pantallas más pequeñas (móviles) */
