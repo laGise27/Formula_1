@@ -1,5 +1,5 @@
 let cad= ` 
-<div class="contenedor">
+<div class="contenedor" >
 <!-- Topbar comienzo -->
 <div class="item encabezado">
     <img src="img/logo formula 1.png" alt="">
@@ -8,7 +8,7 @@ let cad= `
         <div id="clock"></div>
         <div id="date"></div>
     </div>
-</div> <!--dale los estilos de la clase item y de la clase encabezado-->
+</div> 
 
 <div class="item encabezado2">
     <a href="index.html" class="linkform">
