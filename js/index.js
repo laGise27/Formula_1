@@ -1,8 +1,7 @@
 let cad= ` 
-<div class="contenedor" >
-<!-- Topbar comienzo -->
+<div class="contenedor-noticias" >
 <div class="item encabezado">
-    <img src="img/logo formula 1.png" alt="">
+    <img src="/img/logo formula 1.png" alt="">
 
     <div class="clockdate-wrapper ">
         <div id="clock"></div>
@@ -11,23 +10,23 @@ let cad= `
 </div> 
 
 <div class="item encabezado2">
-    <a href="index.html" class="linkform">
+    <a href="/index.html" class="linkform">
         <h1>FORMULA 1</h1>
     </a>
     <div>
-        <img class="imagencard" src="img/pilotos-banner.jpg" alt="">
+        <img class="imagencard" src="/img/pilotos-banner.jpg" alt="">
     </div>
 
 </div>
 
 <div class="item navegacion">
     <nav>
-        <a href="index.html" class="home">Home</a>
-        <a href="calendario.html" class="navlink">Calendario F1</a>
-        <a href="pilotos.html" class="navlink">Pilotos</a>
-        <a href="historiaEscuderias.html" class="navlink">Escuderias</a>
-        <a href="historia.html" class="navlink">Historia</a>
-        <a href="contact.html" class="navlink">Contacto</a>
+        <a href="/index.html" class="home">Home</a>
+        <a href="/calendario.html" class="navlink">Calendario F1</a>
+        <a href="/pilotos.html" class="navlink">Pilotos</a>
+        <a href="/historiaEscuderias.html" class="navlink">Escuderias</a>
+        <a href="/historia.html" class="navlink">Historia</a>
+        <a href="/contact.html" class="navlink">Contacto</a>
     </nav>
 </div>  
 `
@@ -40,7 +39,7 @@ document.querySelector ("header"). innerHTML= cad
 cad=`
 <div class="item pie">
 <div class="primerfooter">
-    <a href="index.html" class="linkform">
+    <a href="/index.html" class="linkform">
         <h2>FORMULA 1</h2>
     </a>
     <p>Todo lo que tenes que saber de la Formula 1</p>
