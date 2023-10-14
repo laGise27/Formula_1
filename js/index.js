@@ -25,7 +25,7 @@ let cad= `
         <a href="index.html" class="home">Home</a>
         <a href="calendario.html" class="navlink">Calendario F1</a>
         <a href="pilotos.html" class="navlink">Pilotos</a>
-        <a href="escuderias/historiaEscuderias.html" class="navlink">Escuderias</a>
+        <a href="historiaEscuderias.html" class="navlink">Escuderias</a>
         <a href="historia.html" class="navlink">Historia</a>
         <a href="contact.html" class="navlink">Contacto</a>
     </nav>
