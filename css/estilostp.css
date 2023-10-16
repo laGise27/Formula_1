@@ -21,6 +21,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
@@ -867,7 +868,7 @@ Aca probando el Newsletter
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-between;
     padding: 0 20px 100px;
 
    
@@ -909,7 +910,7 @@ span.red {
 .todo{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 .info{
@@ -920,7 +921,7 @@ span.red {
 }
 
 .imagenApp{
-    margin-left: 5rem;
+    margin-left: 2rem;
     width: 100%;
     
 }
@@ -941,14 +942,18 @@ span.red {
 @media screen and (max-width: 800px){
    
     #app{
-        
+        display:flex;
         flex-wrap: wrap;
+        place-content: space-between;
     }
     
     .tarjeta{
         max-width: 290px;
         margin: 20px;
         transform: scale(1);
+    }
+    .todo{
+        max-width: 200px;
     }
     
     .tarjeta:hover{
@@ -964,7 +969,15 @@ span.red {
         margin: 20px;
         transform: translateY(0deg) scale(1);
     }
+    .todo{
+        max-width: 250px;
+    }
+    
 }   
+
+
+
+
 
 
 
