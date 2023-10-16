@@ -1,0 +1,224 @@
+{
+    "circuitos":[
+        {
+            "id":1,
+            "nombre":"Gran Premio de Bahréin 2023 de F1",
+            "trazado":"Circuito de Bahréin",
+            "lugar": " Sakhir, Bahréin",
+            "fecha":"Del 03 al 05 de marzo",
+            "longitud": "5'412 km",
+            "curvas": "15",
+            "foto":"./img/circuitos/1-sakhir-bahrein.jpg"
+        },
+        {
+            "id":2,
+            "nombre":"Gran Premio de Arabia Saudi 2023 de F1",
+            "trazado":"Circuito de la Corniche de Yeda",
+            "lugar": " Yeda, Arabia Saudí",
+            "fecha":"Del 17 al 19 de marzo",
+            "longitud": "6'175 km",
+            "curvas": "27",
+            "foto":"./img/circuitos/2-jeddah-arabia saudi.jpg"
+        },
+        {
+            "id":3,
+            "nombre":"Gran Premio de Australia 2023 de F1",
+            "trazado":"Circuito de Albert Park",
+            "lugar": " Melbourne, Australia",
+            "fecha":"Del 31 de marzo al 02 de abril",
+            "longitud": "5'303 km",
+            "curvas": "16",
+            "foto":"./img/circuitos/3-melbourne-australia.jpg"
+        },
+        {
+            "id":4,
+            "nombre":"Gran Premio de Azerbaiyán 2023 de F1 - SPRINT",
+            "trazado":"Bakú City Circuit",
+            "lugar": " Bakú, Azerbaiyán",
+            "fecha":"Del 28 al 30 de abril",
+            "longitud": "6'003 km",
+            "curvas": "20",
+            "foto":"./img/circuitos/4-baku-azerbaiyan.jpg"
+        },
+        {
+            "id":5,
+            "nombre":"Gran Premio de Miami 2023 de F1",
+            "trazado":"Circuito urbano de Miami",
+            "lugar": " Miami, Estados Unidos",
+            "fecha":"Del 05 al 07 de mayo",
+            "longitud": "5'410 km",
+            "curvas": "19",
+            "foto":"./img/circuitos/5-miami-eeuu.jpg"
+        },
+        {
+            "id":6,
+            "nombre":"GGran Premio de Mónaco 2023 de F1",
+            "trazado":"Circuito de Mónaco",
+            "lugar": " Montecarlo, Mónaco",
+            "fecha":"Del 26 al 28 de mayo",
+            "longitud": "3'340 km",
+            "curvas": "19",
+            "foto":"./img/circuitos/6-monaco.jpg"
+        },
+        {
+            "id":7,
+            "nombre":"Gran Premio de España 2023 de F1",
+            "trazado":"Circuit de Barcelona-Catalunya",
+            "lugar": " Montmeló, España",
+            "fecha":"Del 02 al 04 de junio",
+            "longitud": "4'655 km",
+            "curvas": "16",
+            "foto":"./img/circuitos/7-montmelo2015-españa.jpg"
+        },
+        {
+            "id":8,
+            "nombre":"Gran Premio de Canadá 2023 de F1",
+            "trazado":"Circuito Gilles Villeneuve",
+            "lugar": "  Montreal, Canadá",
+            "fecha":"Del 16 al 18 de junio",
+            "longitud": "4'361 km",
+            "curvas": "12",
+            "foto":"./img/circuitos/8-gilles-villeneuve-canada.jpg"
+        },
+        {
+            "id":9,
+            "nombre":"Gran Premio de Austria 2023 de F1 - SPRINT",
+            "trazado":"Red Bull Ring",
+            "lugar": " Knittelfeld, Austria",
+            "fecha":"Del 31 de junio al 02 de julio",
+            "longitud": "4'326 km",
+            "curvas": "10",
+            "foto":"./img/circuitos/9-red-bull-ring-austria.jpg"
+        },
+        {
+            "id":10,
+            "nombre":"Gran Premio de Gran Bretaña 2023 de F1",
+            "trazado":"Circuito de Silverstone",
+            "lugar": " Silverstone, Gran Bretaña",
+            "fecha":"Del 07 al 09 de julio",
+            "longitud": "5'891 km",
+            "curvas": "18",
+            "foto":"./img/circuitos/10-silverstone- gran bretaña.jpg"
+        },
+        {
+            "id":11,
+            "nombre":"Gran Premio de Hungría 2023 de F1",
+            "trazado":"Circuito de Hungaroring",
+            "lugar": " Mogyoród, Hungría",
+            "fecha":"Del 21 al 23 de julio",
+            "longitud": " 4'381  km",
+            "curvas": "14",
+            "foto":"./img/circuitos/11-hungaroring-hungria.jpg"
+        },
+        {
+            "id":12,
+            "nombre":"Gran Premio de Bélgica 2023 de F1 - SPRINT",
+            "trazado":"Circuito de Spa-Francorchamps",
+            "lugar": " Spa-Francorchamps, Bélgica",
+            "fecha":"Del 28 al 30 de julio",
+            "longitud": "7'004 km",
+            "curvas": "19",
+            "foto":"./img/circuitos/12-spa-francorchamps- belgica.jpg"
+        },
+        {
+            "id":13,
+            "nombre":"Gran Premio de los Países Bajos 2023 de F1",
+            "trazado":"Circuito de Zandvoort",
+            "lugar": " Zandvoort, Países Bajos",
+            "fecha":"Del 25 al 27 de agosto",
+            "longitud": "4'259 km",
+            "curvas": "14",
+            "foto":"./img/circuitos/13-circuito-zandvoort-paises bajos.jpg"
+        },
+        {
+            "id":14,
+            "nombre":"Gran Premio de Italia 2023 de F1",
+            "trazado":"Circuito de Monza",
+            "lugar": " Monza, Italia",
+            "fecha":"Del 01 al 03 de septiembre",
+            "longitud": "5'793 km",
+            "curvas": "11",
+            "foto":"./img/circuitos/14-monza-italia.jpg"
+        },
+        {
+            "id":15,
+            "nombre":"Gran Premio de Singapur 2023 de F1",
+            "trazado":"Circuito de Marina Bay",
+            "lugar": " Singapur, Singapur",
+            "fecha":"Del 15 de septiembre al 17 de septiembre",
+            "longitud": "5'073 km",
+            "curvas": "23",
+            "foto":"./img/circuitos/15-marina-bay-singapur.jpg"
+        },
+        {
+            "id":16,
+            "nombre":"Gran Premio de Japón 2023 de F1",
+            "trazado":"Circuito de Suzuka",
+            "lugar": " Suzuka, Japón",
+            "fecha":"Del 22 al 24 de septiembre",
+            "longitud": "5'807 km",
+            "curvas": "18",
+            "foto":"./img/circuitos/16-suzuka- japon.jpg"
+        },
+        {
+            "id":17,
+            "nombre":"Gran Premio de Qatar 2023 de F1 - SPRINT",
+            "trazado":"Circuito de Losail (Por confirmar)",
+            "lugar": " Losail, Qatar",
+            "fecha":"Del 06 al 08 de octubre",
+            "longitud": "5'380 km",
+            "curvas": "16",
+            "foto":"./img/circuitos/17-circuito-losail-qatar.jpg"
+        },
+        {
+            "id":18,
+            "nombre":"Gran Premio de los Estados Unidos 2023 de F1 - SPRINT",
+            "trazado":"Circuito de las Américas",
+            "lugar": "Travis County, Austin, Estados Unidos",
+            "fecha":"Del 20 al 22 de octubre",
+            "longitud": "5'513 km",
+            "curvas": "20",
+            "foto":"./img/circuitos/18-austin-eeuu.jpg"
+        },
+        {
+            "id":19,
+            "nombre":"Gran Premio de México 2023 de F1",
+            "trazado":"Autódromo Hermanos Rodríguez",
+            "lugar": " México D.F., México",
+            "fecha":"Del 27 al 29 de octubre",
+            "longitud": "4'421 km",
+            "curvas": "16",
+            "foto":"./img/circuitos/19-hermanos-rodriguez-mexico.jpg"
+        },
+        {
+            "id":20,
+            "nombre":"Gran Premio de Sao Paulo 2023 de F1 - SPRINT",
+            "trazado":"José Carlos Pace (Interlagos)",
+            "lugar": " São Paulo, Brasil",
+            "fecha":"Del 03 al 05 de noviembre",
+            "longitud": "4'309 km",
+            "curvas": "15",
+            "foto":"./img/circuitos/20-interlagos-brasil.jpg"
+        },
+        {
+            "id":21,
+            "nombre":"Gran Premio de Las Vegas 2023 de F1",
+            "trazado":"Circuito de Las Vegas",
+            "lugar": " Las Vegas, Estados Unidos",
+            "fecha":"Del 16 al 18 de noviembre",
+            "longitud": "Por confirmar",
+            "curvas": "14",
+            "foto":"./img/circuitos/21-circuito-lasvegas-eeuu.jpg"
+        },
+        {
+            "id":22,
+            "nombre":"Gran Premio de Abu Dhabi 2023 de F1",
+            "trazado":"Circuito de Yas Marina",
+            "lugar": " Abu Dhabi, Emiratos Árabes Unidos",
+            "fecha":"Del 24 al 26 de noviembre",
+            "longitud": "5'554 km",
+            "curvas": "21",
+            "foto":"./img/circuitos/22-yas-marina-abu dhabi-emiratos arabes.jpg"
+        }
+    ]
+}
