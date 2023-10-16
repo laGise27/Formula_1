@@ -99,7 +99,7 @@
 }
 
     .slider {
-        width: 55vw;
+        width: auto;
         height: auto;
         margin: auto;
         overflow: hidden;
