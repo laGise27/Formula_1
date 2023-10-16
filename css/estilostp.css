@@ -96,6 +96,7 @@
         height: auto;
         margin: auto;
         overflow: hidden;
+        margin-top: 20px;
     }
 
     .slider .slide-track {
@@ -278,7 +279,7 @@ body {
     text-align: left;
     display: inline-flex;
     --ms-text-justify: auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 }
 
@@ -402,9 +403,9 @@ h4{
     position: relative;
     width: 250px;
     height: 250px;  
-    padding: 20px;
-        
+    padding: 20px;       
 }
+
 
 .card div{
     position: absolute;
@@ -424,17 +425,17 @@ h4{
     transform: perspective(500px) rotateY(0deg);
     margin: 20px; 
     padding: 10px;
+    font-weight: bold;
     
 }
 .back{
     background-color:#333;
     transform: perspective(400px) rotateY(180deg); 
-    color:antiquewhite ;
-     
-        
+    color:antiquewhite ;     
 }
-.card p{
-    font-weight:bolder
+.card a {
+    font-size: 1rem ;
+   
 }
 .card:hover .front{
     transform: perspective(400px) rotateY(180deg);
@@ -446,40 +447,42 @@ h4{
 }
 .infopilotos{
     color:whitesmoke;
-    background-color:#333
+    background-color:#333;
 }
 .noticias{
     padding: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family:"Roboto", sans-serif;
 }
     
     .noticias h2{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:"Roboto", sans-serif;
         color: black;
         font-size: 2.3rem;
     }
     .noticias h3{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:"Roboto", sans-serif;
         color: black;
         font-size: 2rem;
         text-align: center;
     }
 
     .noticias ul li{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:"Roboto", sans-serif;
         color: black;
-        font-size: 1rem;  
+        font-size: 1rem; 
+        font-weight: bold; 
+       
     }
 
 
     .noticias p{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:"Roboto", sans-serif;
         color: black;
-        font-size: 1.2rem; 
+        font-size: 1rem; 
     }
 
     .noticias h4{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:"Roboto", sans-serif;
         color: black;
         font-size: 1.2rem;
     }
@@ -488,27 +491,27 @@ h4{
     padding: 50px;
 }
     .historias h1{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: black;
-        font-size: 3rem;
-    }
-
-    .historias h2{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: black;
-        font-size: 2.5rem;
-    }
-
-    .historias h3{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:"Roboto", sans-serif;
         color: black;
         font-size: 2rem;
     }
 
-    .historias p{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    .historias h2{
+        font-family:"Roboto", sans-serif;
         color: black;
+        font-size: 1.7rem;
+    }
+
+    .historias h3{
+        font-family:"Roboto", sans-serif;
+        color:#333;
         font-size: 1.2rem;
+    }
+
+    .historias p{
+        font-family:"Roboto", sans-serif;
+        color: black;
+        font-size: 1rem;
     }
 
     
@@ -900,10 +903,11 @@ span.red {
     
     font-size: 1.5rem;
     position:absolute;
+    margin-left: 400px;
 }
 
 .imagenApp{
-    margin-left: 200px;
+    margin-left: 150px;
     width: 100%;
     
 }
