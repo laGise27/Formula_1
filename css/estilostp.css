@@ -389,8 +389,7 @@ h4{
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr); 
 	grid-template-rows: repeat(6, 1fr); /* auto auto auto auto*/
-    margin:30px;
-    
+   
     /*display:flex;
     flex-wrap:wrap;
     flex-direction: row;
@@ -834,4 +833,3 @@ Aca probando el Newsletter
     background: red;
     
  }
-    
