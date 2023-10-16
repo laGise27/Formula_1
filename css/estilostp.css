@@ -913,20 +913,26 @@ span.red {
     
     font-size: 1.5rem;
     position:absolute;
-    margin-left: 400px;
+    margin-left: 20rem;
 }
 
 .imagenApp{
-    margin-left: 150px;
+    margin-left: 5rem;
     width: 100%;
     
 }
 
 .imagenApp img{
-    
-    margin: auto;
-    margin-top: 2px;
+    align-items: left;
     width: 400px;
     
 }
+@media (max-width: 840px) {
+
+    .imagenApp img{
+        opacity: 50%;
+    }
+    
+}
+
 
