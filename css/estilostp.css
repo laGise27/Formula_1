@@ -861,12 +861,15 @@ Aca probando el Newsletter
  }
  
  #app{
-    max-width: auto;
+    width: 100%;
+    max-width: 1000px;
     margin: auto;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-around;
     padding: 0 20px 100px;
+
    
 }
 
@@ -905,7 +908,7 @@ span.red {
 
 .todo{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content:space-around;
 }
 
@@ -924,7 +927,7 @@ span.red {
 
 .imagenApp img{
     align-items: left;
-    width: 400px;
+    width: 300px;
     
 }
 @media (max-width: 840px) {
@@ -934,5 +937,35 @@ span.red {
     }
     
 }
+
+@media screen and (max-width: 800px){
+   
+    #app{
+        
+        flex-wrap: wrap;
+    }
+    
+    .tarjeta{
+        max-width: 290px;
+        margin: 20px;
+        transform: scale(1);
+    }
+    
+    .tarjeta:hover{
+        transform: translateY(0px) scale(1.08);
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    
+    .tarjeta{
+        max-width: 350px;
+        margin: 20px;
+        transform: translateY(0deg) scale(1);
+    }
+}   
+
+
 
 
