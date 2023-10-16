@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Leclerc vuelve a perder contra Carlos Sainz</title>
+    <link rel="stylesheet" href="css/estilostp.css">
+    <link href="img/logo formula 1.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <script src="/js/reloj.js"></script>
+
+
+
+</head>
+
+<body onload="startTime()">
+    <header>
+
+    </header>
+
+
+    <div id="app">
+        <div class="tarjeta" v-for="elemento in datos">
+            <h2><span class="red">{{elemento.id}}</span></h2>
+            <p class="titulo">{{elemento.nombre}}</p>
+            
+            <div class="todo">
+                <div class="imagenApp ">
+                    <img v-bind:src="elemento.foto" :alt="elemento.nombre">
+                </div>
+    
+                <div class="info">
+                  
+                    <p ><strong>Trazado: </strong> {{elemento.trazado}}</p>
+                    <p ><strong>Lugar: </strong> {{elemento.lugar}}</p>
+                    <p ><strong>Fecha: </strong> {{elemento.fecha}}</p>
+                    <p ><strong>Longitud: </strong>{{elemento.longitud}}</p>
+                    <p ><strong>Curvas: </strong>{{elemento.curvas}}</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <footer>
+
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script src="./js/circuitos.js"></script>
+</body>
+
+
+</html>
