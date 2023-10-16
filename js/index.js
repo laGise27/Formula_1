@@ -22,10 +22,9 @@ let cad= `
 <div class="item navegacion">
     <nav>
         <a href="/index.html" class="home">Home</a>
-        <a href="/calendario.html" class="navlink">Calendario F1</a>
         <a href="/pilotos.html" class="navlink">Pilotos</a>
         <a href="/historiaEscuderias.html" class="navlink">Escuderias</a>
-        <a href="/historia.html" class="navlink">Historia</a>
+        <a href="/circuitos.html" class="navlink">Circuitos/Calendario</a>
         <a href="/contact.html" class="navlink">Contacto</a>
     </nav>
 </div>  
@@ -43,11 +42,11 @@ cad=`
         <h2>FORMULA 1</h2>
     </a>
     <p>Todo lo que tenes que saber de la Formula 1</p>
-    <div class=iconos>
-        <a class="iconosredes" href="https://x.com/F1?t=P8Mu6Jls5wJeuy8GHr5pOA&s=09"><i class="fab fa-twitter"></i></a>
-        <a class="iconosredes" href="https://www.facebook.com/Formula1?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
-        <a class="iconosredes" href="https://instagram.com/f1?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
-        <a class="iconosredes" href="https://www.youtube.com/@Formula1"><i class="fab fa-youtube"></i></a>
+    <div class="iconos">
+        <a class="iconosredes" href="https://x.com/F1?t=P8Mu6Jls5wJeuy8GHr5pOA&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="iconosredes" href="https://www.facebook.com/Formula1?mibextid=ZbWKwL"target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a class="iconosredes" href="https://instagram.com/f1?igshid=MzRlODBiNWFlZA=="target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="iconosredes" href="https://www.youtube.com/@Formula1"target="_blank"><i class="fab fa-youtube"></i></a>
     </div>
 </div>
 <div class="segundofooter">
