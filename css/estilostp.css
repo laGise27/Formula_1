@@ -961,6 +961,12 @@ span.red {
     .tarjeta:hover{
         transform: translateY(0px) scale(1.08);
     }
+    .container-form{
+        max-width: 300px;
+        flex-wrap: wrap;
+        margin: 20px;
+        padding: 20px;
+    }
 }
 
 
@@ -974,7 +980,10 @@ span.red {
         
     }
     .container-form{
-        max-width: 300px;
+        max-width: 200px;
+        flex-wrap: wrap;
+        margin: 20px;
+        padding: 20px;
     }
     .imagenApp img{
         width: 200px;
@@ -990,10 +999,11 @@ span.red {
     width: 100%;
     max-width: 1100px;
     margin: auto;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 50px;
     margin-top: 90px;
+
 }
 .container-form h2{
     margin-bottom: 15px;
