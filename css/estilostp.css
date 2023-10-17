@@ -657,7 +657,7 @@ h4{
     justify-content: center;
     text-decoration: none;
     padding: 15px;
-    background:red;
+    background:#ee0000;
     color: #fff;
     width: auto;
     margin: auto;
@@ -668,7 +668,7 @@ h4{
  }
 
 .post-body .post-link:hover{
-    background: red;
+    background: #ee0000;
     box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
     transform: translate(-2px);
  }
@@ -681,6 +681,10 @@ h4{
     .contenedor1{
         grid-template-columns: repeat(4, 1fr);
     }
+    .encabezado img {
+        max-width: 100%;
+        height: auto;
+    }
     
 }
  
@@ -692,6 +696,10 @@ h4{
     .contenedor1{
         grid-template-columns: repeat(3, 1fr);
     }
+    .encabezado img {
+        max-width: 70%;
+        height: auto;
+    }
     
 }
 
@@ -702,6 +710,10 @@ h4{
     .contenedor1{
         grid-template-columns: repeat(2, 1fr);
     }
+    .encabezado img {
+        max-width: 50%;
+        height: auto;
+    }
     
 }
 @media (max-width: 600px){
@@ -710,6 +722,17 @@ h4{
     }
     .contenedor1{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .encabezado img {
+        max-width: 50%;
+        height: auto;
+    }    
+    .encabezado2{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .pie{
+        font-size: 1rem;
     }
 
 }
@@ -853,7 +876,7 @@ Aca probando el Newsletter
  }
 
  .post-link1:hover{
-    background: red;
+    background: #ee0000;
     
  }
 
@@ -875,7 +898,7 @@ Aca probando el Newsletter
 }
 
 span.red {
-    background: red;
+    background: #ee0000;
     border-radius: 1.5em;
     -moz-border-radius: 1.5em;
     -webkit-border-radius: 1.5em;
@@ -1023,7 +1046,7 @@ span.red {
     font-weight: 700;
 }
 .container-form a i{
-    color:red;
+    color:#ee0000;
     margin-right: 10px;
 }
 .container-form form .campo, textarea{
@@ -1046,7 +1069,7 @@ span.red {
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: rgb(255, 0, 0);
+    background: #ee0000;
     color: white;
     border-radius: 3px;
     cursor: pointer;
@@ -1059,14 +1082,16 @@ span.red {
 
 /*menu hamburguesa*/
 .menu{
-    background-color: #fa0f1b;
+    background-color: #ee0000;
     color: #fff;
-    height: 70px;
+    height: 60px;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .menu__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 90%;
     max-width: 1200px;
@@ -1103,10 +1128,6 @@ span.red {
     align-items: center;
 }
 
-.menu__link:hover{
-    background-color:#fa0f1b;
-}
-
 
 .menu__arrow{
     transform: var(--transform);
@@ -1134,6 +1155,10 @@ span.red {
 .menu__link--inside:hover{
     background-color: #798499;
 }
+.menu__links :hover{
+    background-color:rgb(240, 240, 240);
+    color: #000;
+}
 
 .menu__hamburguer{
     height: 100%;
@@ -1150,6 +1175,9 @@ span.red {
 }
 
 @media (max-width:800px){
+    .menu__container{
+        justify-content: left;
+    }
     .menu__hamburguer{
         display: flex;
         
@@ -1168,13 +1196,17 @@ span.red {
     .menu__item--show{
         background-color: var(--background);
     }
+    .menu__links :hover{
+        background-color:#ee0000;
+        color:whitesmoke;
+    }
 
 
     .menu__links{
         position: fixed;
         max-width: 400px;
         width: 100%;
-        top: 70px;
+        top: 60px;
         bottom: 0;
         right: 0;
         background-color: #000;
@@ -1182,6 +1214,10 @@ span.red {
         display: grid;
         grid-auto-rows: max-content;
         transform: translateX(100%);
+        z-index: 30;
+        font-size: 1.1rem;
+        padding-left: 0;
+
     }
 
     .menu__links--show{
@@ -1211,7 +1247,7 @@ span.red {
         transition: height .3s;
     }
 
-    .menu__link--inside{
+    .menu__links--inside{
         width: 90%;
         margin-left: auto;
         border-left: 1px solid #798499;
