@@ -19,19 +19,39 @@ let cad= `
 
     </div>
 
-    
-
-
     <div class="item navegacion ">
-        <nav >
-        
-                <a href="/index.html" class="home">Home</a>
-                <a href="/pilotos.html" class="navlink">Pilotos</a>
-                <a href="/historiaEscuderias.html" class="navlink">Escuderias</a>
-                <a href="/circuitos.html" class="navlink">Circuitos/Calendario</a>
-                <a href="/contact.html" class="navlink">Contacto</a>
-        
-        </nav>
+        <nav class="menu">
+        <section class="menu__container">
+           
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="/index.html" class="menu__link">Home</a>
+                </li>
+    		<li class="menu__item">
+                    <a href="/pilotos.html" class="menu__link">Pilotos</a>
+                </li>
+		<li class="menu__item">
+                    <a href="/historiaEscuderias.html" class="menu__link">Escuderias</a>
+                </li>
+		<li class="menu__item">
+                    <a href="/circuitos.html" class="menu__link">Circuitos</a>
+                </li>
+                
+    
+                <li class="menu__item">
+                    <a href="contact.html" class="menu__link">Contacto</a>
+                </li>
+    
+            </ul>
+
+            <div class="menu__hamburguer">
+                <img src="/img/menu.svg" class="menu__img">
+            </div>
+        </section>
+
+      
+    </nav>
     </div>  
 </div>
     `
