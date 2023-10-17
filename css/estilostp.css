@@ -21,7 +21,6 @@
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
@@ -99,7 +98,7 @@
 }
 
     .slider {
-        width: auto;
+        width: 55vw;
         height: auto;
         margin: auto;
         overflow: hidden;
@@ -862,15 +861,12 @@ Aca probando el Newsletter
  }
  
  #app{
-    width: 100%;
-    max-width: 1000px;
+    max-width: auto;
     margin: auto;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
     padding: 0 20px 100px;
-
    
 }
 
@@ -945,7 +941,7 @@ span.red {
     #app{
         display:flex;
         flex-wrap: wrap;
-        width: 100%
+        width:100%;
     }
     
     .tarjeta{
@@ -976,6 +972,10 @@ span.red {
     }
     
 }   
+
+
+
+
 
 
 
