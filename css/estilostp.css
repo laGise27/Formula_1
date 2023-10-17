@@ -21,7 +21,6 @@
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
@@ -99,7 +98,7 @@
 }
 
     .slider {
-        width: auto;
+        width: 55vw;
         height: auto;
         margin: auto;
         overflow: hidden;
@@ -862,15 +861,12 @@ Aca probando el Newsletter
  }
  
  #app{
-    width: 100%;
-    max-width: 1000px;
+    max-width: auto;
     margin: auto;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
     padding: 0 20px 100px;
-
    
 }
 
@@ -909,8 +905,8 @@ span.red {
 
 .todo{
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+    flex-wrap: nowrap;
+    justify-content:space-around;
 }
 
 .info{
@@ -921,14 +917,14 @@ span.red {
 }
 
 .imagenApp{
-    margin-left: 2rem;
+    margin-left: 5rem;
     width: 100%;
     
 }
 
 .imagenApp img{
     align-items: left;
-    width: 300px;
+    width: 400px;
     
 }
 @media (max-width: 840px) {
@@ -938,47 +934,5 @@ span.red {
     }
     
 }
-
-@media screen and (max-width: 800px){
-   
-    #app{
-        display:flex;
-        flex-wrap: wrap;
-        place-content: space-between;
-    }
-    
-    .tarjeta{
-        max-width: 290px;
-        margin: 20px;
-        transform: scale(1);
-    }
-    .todo{
-        max-width: 200px;
-    }
-    
-    .tarjeta:hover{
-        transform: translateY(0px) scale(1.08);
-    }
-}
-
-
-@media screen and (max-width: 650px){
-    
-    .tarjeta{
-        max-width: 350px;
-        margin: 20px;
-        transform: translateY(0deg) scale(1);
-    }
-    .todo{
-        max-width: 250px;
-    }
-    
-}   
-
-
-
-
-
-
 
 
