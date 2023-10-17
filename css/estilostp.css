@@ -433,9 +433,13 @@ h4{
     background-color: white;
     transform: perspective(500px) rotateY(0deg);
     margin: 10px; 
-   font-weight: bold;
+    font-weight: bold;
     
 }
+.front img{
+    padding-top: 40px;
+}
+
 .back{
     background-color:#333;
     transform: perspective(400px) rotateY(180deg); 
