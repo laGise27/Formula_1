@@ -895,6 +895,7 @@ span.red {
     background: white;
     padding-bottom: 20px;
     box-shadow: 0px 20px 50px -10px #000;
+    position: relative;
 }
 
 .tarjeta:hover{
@@ -907,17 +908,17 @@ span.red {
     text-align: center;
 }
 
-/*.todo{
+.todo{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
-}*/
+    justify-content:space-around;
+}
 
 .info{
     text-align: center;
     font-size: 1.5rem;
     position:relative;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .imagenApp{
@@ -948,7 +949,7 @@ span.red {
     }
     
     .tarjeta{
-        display: block;
+        
         max-width: 290px;
         margin: 20px;
         transform: scale(1);
