@@ -6,7 +6,7 @@
     /*px, auto, %, Fr, rem*/
     grid-template-rows: repeat(11);
     gap: 10px;
-    margin:30px
+    margin:30px;
 }
  
 .item {
@@ -905,28 +905,28 @@ span.red {
     text-align: center;
 }
 
-.todo{
+/*.todo{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content:space-around;
-}
+}*/
 
 .info{
     text-align: center;
     font-size: 1.5rem;
     position:relative;
-    padding: 0 20px;
+    padding: 20px;
 }
 
 .imagenApp{
-    margin-left: 2rem;
+    margin-left: 5rem;
     width: 100%;
     
 }
 
 .imagenApp img{
     align-items: left;
-    width: 250px;
+    width: 300px;
     
 }
 @media (max-width: 840px) {
@@ -942,11 +942,10 @@ span.red {
     #app{
         display:flex;
         flex-wrap: wrap;
-        width:100%;
+        place-content: space-between;
     }
     
     .tarjeta{
-        
         max-width: 290px;
         margin: 20px;
         transform: scale(1);
