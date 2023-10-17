@@ -6,7 +6,7 @@
     /*px, auto, %, Fr, rem*/
     grid-template-rows: repeat(11);
     gap: 10px;
-    margin:30px
+    margin:30px;
 }
  
 .item {
@@ -433,11 +433,14 @@ h4{
 .front{
     background-color: white;
     transform: perspective(500px) rotateY(0deg);
-    margin: 20px; 
-    padding: 20px;
+    margin: 10px; 
     font-weight: bold;
     
 }
+.front img{
+    padding-top: 40px;
+}
+
 .back{
     background-color:#333;
     transform: perspective(400px) rotateY(180deg); 
@@ -855,7 +858,6 @@ Aca probando el Newsletter
  }
 
  /*circuitos*/
- 
  .tarjeta h2{
     padding-top: 20px;
     margin-left:200px;
@@ -878,7 +880,7 @@ span.red {
     -moz-border-radius: 1.5em;
     -webkit-border-radius: 1.5em;
     color: #ffffff;
-    display: inline-block;
+    display:inline-block;
     font-weight: bold;
     line-height: 2.6em;
     margin-right: 25px;
@@ -894,6 +896,7 @@ span.red {
     padding-bottom: 20px;
     box-shadow: 0px 20px 50px -10px #000;
     position: relative;
+    margin: 20px;
 }
 
 .tarjeta:hover{
@@ -914,9 +917,9 @@ span.red {
 
 .info{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     position:relative;
-    padding: 0 20px;
+    
 }
 
 .imagenApp{
@@ -928,18 +931,10 @@ span.red {
 .imagenApp img{
     display: block;
     margin: auto;
-    width: 200px;
-    padding: 20px;
-    
+    width: 350px;
+    padding: 20px;   
 }
-@media (max-width: 840px) {
-
-    .imagenApp img{
-        opacity: 50%;
-    }
     
-}
-
 @media screen and (max-width: 800px){
    
     #app{
@@ -950,12 +945,17 @@ span.red {
     
     .tarjeta{
         
-        max-width: 290px;
+        max-width: 300px;
         margin: 20px;
         transform: scale(1);
     }
+    .imagenApp img{
+        width: 200px;
+        align-items: center;
+    }
+
     .todo{
-        max-width: 200px;
+        max-width: 300px;
     }
     
     .tarjeta:hover{
@@ -967,12 +967,22 @@ span.red {
 @media screen and (max-width: 650px){
     
     .tarjeta{
-        max-width: 350px;
+        max-width: 300px;
         margin: 20px;
         transform: translateY(0deg) scale(1);
+    
+        
+    }
+    .container-form{
+        max-width: 300px;
+    }
+    .imagenApp img{
+        width: 200px;
+        align-items: center;
+
     }
     .todo{
-        max-width: 250px;
+        max-width: 300px;
     }
     
 }   
