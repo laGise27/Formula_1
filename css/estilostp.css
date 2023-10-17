@@ -854,7 +854,6 @@ Aca probando el Newsletter
  }
 
  /*circuitos*/
- 
  .tarjeta h2{
     padding-top: 20px;
     margin-left:200px;
@@ -862,7 +861,7 @@ Aca probando el Newsletter
  }
  
  #app{
-    max-width: auto;
+    max-width: 1000px;
     margin: auto;
     margin-top: 100px;
     display: flex;
@@ -877,7 +876,7 @@ span.red {
     -moz-border-radius: 1.5em;
     -webkit-border-radius: 1.5em;
     color: #ffffff;
-    display: inline-block;
+    display:inline-block;
     font-weight: bold;
     line-height: 2.6em;
     margin-right: 25px;
@@ -893,6 +892,7 @@ span.red {
     padding-bottom: 20px;
     box-shadow: 0px 20px 50px -10px #000;
     position: relative;
+    margin: 20px;
 }
 
 .tarjeta:hover{
@@ -905,35 +905,30 @@ span.red {
     text-align: center;
 }
 
-/*.todo{
+.todo{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content:space-around;
-}*/
+}
 
 .info{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     position:relative;
-    padding: 20px;
+    
 }
 
 .imagenApp{
-    margin-left: 5rem;
+    margin-left: 2rem;
     width: 100%;
     
 }
 
 .imagenApp img{
-    align-items: left;
-    width: 300px;
-    
-}
-@media (max-width: 840px) {
-
-    .imagenApp img{
-        opacity: 50%;
-    }
+    display: block;
+    margin: auto;
+    width: 350px;
+    padding: 20px;
     
 }
 
@@ -942,16 +937,22 @@ span.red {
     #app{
         display:flex;
         flex-wrap: wrap;
-        place-content: space-between;
+        width:100%;
     }
     
     .tarjeta{
+        
         max-width: 290px;
         margin: 20px;
         transform: scale(1);
     }
+    .imagenApp img{
+        width: 200px;
+        align-items: center;
+    }
+
     .todo{
-        max-width: 200px;
+        max-width: 290px;
     }
     
     .tarjeta:hover{
@@ -966,12 +967,19 @@ span.red {
         max-width: 350px;
         margin: 20px;
         transform: translateY(0deg) scale(1);
+    
+        
+    }
+    .imagenApp img{
+        width: 200px;
+        align-items: center;
+
     }
     .todo{
-        max-width: 250px;
+        max-width: 350px;
     }
     
-}   
+}    
 
 
 
