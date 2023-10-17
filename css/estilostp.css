@@ -432,9 +432,8 @@ h4{
 .front{
     background-color: white;
     transform: perspective(500px) rotateY(0deg);
-    margin: 20px; 
-    padding: 20px;
-    font-weight: bold;
+    margin: 10px; 
+   font-weight: bold;
     
 }
 .back{
@@ -941,7 +940,7 @@ span.red {
     
     .tarjeta{
         
-        max-width: 290px;
+        max-width: 300px;
         margin: 20px;
         transform: scale(1);
     }
@@ -951,7 +950,7 @@ span.red {
     }
 
     .todo{
-        max-width: 290px;
+        max-width: 300px;
     }
     
     .tarjeta:hover{
@@ -963,7 +962,7 @@ span.red {
 @media screen and (max-width: 650px){
     
     .tarjeta{
-        max-width: 350px;
+        max-width: 300px;
         margin: 20px;
         transform: translateY(0deg) scale(1);
     
@@ -975,7 +974,7 @@ span.red {
 
     }
     .todo{
-        max-width: 350px;
+        max-width: 300px;
     }
     
 }    
