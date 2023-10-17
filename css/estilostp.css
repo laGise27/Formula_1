@@ -279,7 +279,7 @@ body {
     text-align: left;
     background-color: #f2f2f2;
 }
-
+/*
 .navlink {
     text-align: left;
     margin: 5px;
@@ -292,7 +292,7 @@ body {
     font-size: 1.2rem;
 
 }
-
+*/
 .home {
     text-align: left;
     margin: 5px;
@@ -310,12 +310,12 @@ body {
     color:white;
     background-color:#6c757d;
 }
-
+/*
 nav a:hover {
     background-color: #ee0000;
     color: whitesmoke
 }
-
+*/
 .linkform {
     color: #ee0000;
     text-decoration: none;
@@ -980,6 +980,7 @@ span.red {
     }
     .container-form{
         max-width: 300px;
+        flex-wrap: wrap;
     }
     .imagenApp img{
         width: 200px;
@@ -1002,15 +1003,6 @@ span.red {
     margin: 40px;
 }
 
-.container-form{
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px;
-    margin-top: 90px;
-}
 .container-form h2{
     margin-bottom: 15px;
     font-size: 35px;
@@ -1059,6 +1051,7 @@ span.red {
     border-radius: 3px;
     cursor: pointer;
     transition: all 300ms ease;
+    display:flex;
 }
 .container-form .btn-enviar:hover{
     background: #c7746e96;
@@ -1100,6 +1093,7 @@ span.red {
     --transform: rotate(0);
 }
 
+
 .menu__link{
     color: #fff;
     text-decoration: none;
@@ -1123,7 +1117,7 @@ span.red {
 
 .menu__nesting{
     list-style: none;
-    transition:clip-path .3s;
+    transition: clip-path .3s;
     clip-path: var(--clip);
     position: absolute;
     right: 0;
@@ -1158,6 +1152,7 @@ span.red {
 @media (max-width:800px){
     .menu__hamburguer{
         display: flex;
+        
     }
 
     .menu__item{
@@ -1190,8 +1185,10 @@ span.red {
     }
 
     .menu__links--show{
-        transform: unset;
-        width: 100%;
+        transform: none;
+        width: 50%;
+        height: 50%;
+        z-index: 30;
     }
 
     .menu__link{
@@ -1218,5 +1215,7 @@ span.red {
         width: 90%;
         margin-left: auto;
         border-left: 1px solid #798499;
+        z-index: 30;
+        
     }
 }
