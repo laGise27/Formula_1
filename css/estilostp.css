@@ -928,9 +928,7 @@ span.red {
     display: block;
     margin: auto;
     width: 350px;
-    padding: 20px;
->>>>>>>>> Temporary merge branch 2
-    
+    padding: 20px;   
 }
     
 @media screen and (max-width: 800px){
