@@ -21,6 +21,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
