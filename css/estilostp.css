@@ -903,17 +903,17 @@ span.red {
     text-align: center;
 }
 
-.todo{
+/*.todo{
     display: flex;
     flex-wrap: nowrap;
     justify-content:space-around;
-}
+}*/
 
 .info{
-    
+    text-align: center;
     font-size: 1.5rem;
-    position:absolute;
-    margin-left: 20rem;
+    position:relative;
+    padding: 20px;
 }
 
 .imagenApp{
@@ -924,7 +924,7 @@ span.red {
 
 .imagenApp img{
     align-items: left;
-    width: 400px;
+    width: 300px;
     
 }
 @media (max-width: 840px) {
@@ -934,5 +934,47 @@ span.red {
     }
     
 }
+
+@media screen and (max-width: 800px){
+   
+    #app{
+        display:flex;
+        flex-wrap: wrap;
+        place-content: space-between;
+    }
+    
+    .tarjeta{
+        max-width: 290px;
+        margin: 20px;
+        transform: scale(1);
+    }
+    .todo{
+        max-width: 200px;
+    }
+    
+    .tarjeta:hover{
+        transform: translateY(0px) scale(1.08);
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    
+    .tarjeta{
+        max-width: 350px;
+        margin: 20px;
+        transform: translateY(0deg) scale(1);
+    }
+    .todo{
+        max-width: 250px;
+    }
+    
+}   
+
+
+
+
+
+
 
 
