@@ -1185,23 +1185,11 @@ span.red {
         height: auto;
     }
 
-    .menu__arrow{
-        margin-left: auto;
-        margin-right: 20px;
-    }
-
-    .menu__nesting{
-        display: grid;
-        position: unset;
-        width: 100%;
-        transform: translateY(0);
-        height: 0;
-        transition: height .3s;
-    }
+    
 
     .menu__link--inside{
         width: 90%;
         margin-left: auto;
         border-left: 1px solid #798499;
     }
-}
+}}
