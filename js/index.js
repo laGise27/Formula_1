@@ -1,34 +1,40 @@
 let cad= ` 
 <div class="contenedor-noticias" >
-<div class="item encabezado">
-    <img src="/img/logo formula 1.png" alt="">
+    <div class="item encabezado">
+        <img src="/img/logo formula 1.png" alt="">
 
-    <div class="clockdate-wrapper ">
-        <div id="clock"></div>
-        <div id="date"></div>
+        <div class="clockdate-wrapper ">
+            <div id="clock"></div>
+            <div id="date"></div>
+        </div>
+    </div> 
+
+    <div class="item encabezado2">
+        <a href="/index.html" class="linkform">
+            <h1>FORMULA 1</h1>
+        </a>
+        <div>
+            <img class="imagencard" src="/img/pilotos-banner.jpg" alt="">
+        </div>
+
     </div>
-</div> 
 
-<div class="item encabezado2">
-    <a href="/index.html" class="linkform">
-        <h1>FORMULA 1</h1>
-    </a>
-    <div>
-        <img class="imagencard" src="/img/pilotos-banner.jpg" alt="">
-    </div>
+    
 
+
+    <div class="item navegacion ">
+        <nav >
+        
+                <a href="/index.html" class="home">Home</a>
+                <a href="/pilotos.html" class="navlink">Pilotos</a>
+                <a href="/historiaEscuderias.html" class="navlink">Escuderias</a>
+                <a href="/circuitos.html" class="navlink">Circuitos/Calendario</a>
+                <a href="/contact.html" class="navlink">Contacto</a>
+        
+        </nav>
+    </div>  
 </div>
-
-<div class="item navegacion">
-    <nav>
-        <a href="/index.html" class="home">Home</a>
-        <a href="/pilotos.html" class="navlink">Pilotos</a>
-        <a href="/historiaEscuderias.html" class="navlink">Escuderias</a>
-        <a href="/circuitos.html" class="navlink">Circuitos/Calendario</a>
-        <a href="/contact.html" class="navlink">Contacto</a>
-    </nav>
-</div>  
-`
+    `
  
 
 document.querySelector ("header"). innerHTML= cad
