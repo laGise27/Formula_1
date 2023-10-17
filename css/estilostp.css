@@ -891,6 +891,7 @@ span.red {
     background: white;
     padding-bottom: 20px;
     box-shadow: 0px 20px 50px -10px #000;
+    position: relative;
 }
 
 .tarjeta:hover{
@@ -903,28 +904,29 @@ span.red {
     text-align: center;
 }
 
-/*.todo{
+.todo{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content:space-around;
-}*/
+}    
+
 
 .info{
     text-align: center;
     font-size: 1.5rem;
     position:relative;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .imagenApp{
-    margin-left: 5rem;
+    margin-left: 2rem;
     width: 100%;
     
 }
 
 .imagenApp img{
     align-items: left;
-    width: 300px;
+    width: 250px;
     
 }
 @media (max-width: 840px) {
@@ -940,10 +942,11 @@ span.red {
     #app{
         display:flex;
         flex-wrap: wrap;
-        place-content: space-between;
+        width:100%;
     }
     
     .tarjeta{
+        display: block;
         max-width: 290px;
         margin: 20px;
         transform: scale(1);
