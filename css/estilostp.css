@@ -1060,8 +1060,8 @@ span.red {
 }
 .container-form form textarea{
     max-width: 530px;
-    min-width: 530px;
-    min-height: 140px;
+    min-width: 100px;
+    min-height: 100px;
     max-height: 150px;
 }
 .container-form .btn-enviar{
