@@ -1000,7 +1000,7 @@ span.red {
     grid-gap: 50px;
     margin-top: 90px;
     margin: 40px;
-
+}
 
 .container-form{
     width: 100%;
@@ -1066,9 +1066,9 @@ span.red {
 
 /*menu hamburguesa*/
 .menu{
-    background-color: #ff0318;
+    background-color: #fa0f1b;
     color: #fff;
-    height: 100px;
+    height: 70px;
 }
 
 .menu__container{
@@ -1110,13 +1110,28 @@ span.red {
 }
 
 .menu__link:hover{
-    background-color: #ff0318;
+    background-color:#fa0f1b;
 }
 
 
+.menu__arrow{
+    transform: var(--transform);
+    transition: transform .3s;
+    display: block;
+    margin-left: 3px;
+}
 
-
-
+.menu__nesting{
+    list-style: none;
+    transition:clip-path .3s;
+    clip-path: var(--clip);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: max-content;
+    transform: translateY(100%);
+    background-color: #000;
+}
 
 .menu__link--inside{
     padding: 30px 100px 30px 20px;
@@ -1185,11 +1200,23 @@ span.red {
         height: auto;
     }
 
-    
+    .menu__arrow{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .menu__nesting{
+        display: grid;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+        transition: height .3s;
+    }
 
     .menu__link--inside{
         width: 90%;
         margin-left: auto;
         border-left: 1px solid #798499;
     }
-}}
+}
