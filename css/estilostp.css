@@ -961,6 +961,12 @@ span.red {
     .tarjeta:hover{
         transform: translateY(0px) scale(1.08);
     }
+    .container-form{
+        max-width: 300px;
+        flex-wrap: wrap;
+        margin: 20px;
+        padding: 20px;
+    }
 }
 
 
@@ -972,8 +978,9 @@ span.red {
         transform: translateY(0deg) scale(1);
            
     }
-    
-    
+    .container-form{
+        max-width: 300px;
+    }
     .imagenApp img{
         width: 200px;
         align-items: center;
@@ -984,8 +991,16 @@ span.red {
     }
     
 }   
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+    margin: 40px;
 
-/*formulario de contacto*/
 
 .container-form{
     width: 100%;
