@@ -29,7 +29,7 @@ let cad= `
                     <a href="/index.html" class="menu__link">Home</a>
                 </li>
     		<li class="menu__item">
-                    <a href="/pilotos.html" class="menu__link">Pilotos</a>
+                    <a href="/pilotos2.html" class="menu__link">Pilotos</a>
                 </li>
 		<li class="menu__item">
                     <a href="/historiaEscuderias.html" class="menu__link">Escuderias</a>
@@ -74,27 +74,14 @@ cad=`
         <a class="iconosredes" href="https://instagram.com/f1?igshid=MzRlODBiNWFlZA=="target="_blank"><i class="fab fa-instagram"></i></a>
         <a class="iconosredes" href="https://www.youtube.com/@Formula1"target="_blank"><i class="fab fa-youtube"></i></a>
     </div>
+   
+    
+
 </div>
 <div class="segundofooter">
     <p class="gruponumber">© Grupo Number One</p>
     <p>.All Rights Reserved.</p>
-</div>
-<!-- segunda columna de footer con los links que no pude ubicar en el pie 
-<div class="segundofooter">
-
-    <h4>Links</h4>
-        <div class=>
-            <a class="linksinteres" href="#">Sobre Nosotros</a> <br>
-            <a class="linksinteres" href="#">Privacidad y politica</a> <br>
-            <a class="linksinteres" href="#">Terminos y Condiciones</a> <br>
-            <a class="linksinteres" href="#">Contacto</a> <br>
-
-        </div>
-
-</div>-->
-
-
-
+    
 </div>
 `
 document.querySelector("footer").innerHTML=cad
