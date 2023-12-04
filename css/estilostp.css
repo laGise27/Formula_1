@@ -416,7 +416,8 @@ h4{
     position: relative;
     width: 250px;
     height: 250px;  
-    padding: 20px;      
+    padding: 20px; 
+         
 }
 
 
@@ -893,10 +894,10 @@ Aca probando el Newsletter
  #app{
     max-width: 1000px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 20px 100px;
+    
    
 }
 
